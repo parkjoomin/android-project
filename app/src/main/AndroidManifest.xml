@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fin_201910103">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="여행을 떠나요"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fin_201910103">
+        <activity
+            android:name=".Activity1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity2" android:label="여행지 추천"></activity>
+        <activity android:name=".Activity3" android:label="힐링 여행"></activity>
+        <activity android:name=".Activity4" android:label="액티비티 여행"></activity>
+        <activity android:name=".Activity5" android:label="식도락 여행"></activity>
+        <activity android:name=".Activity6" android:label="역사 여행"></activity>
+        <activity android:name=".Activity7" android:label="가볼 만한 곳 리스트"></activity>
+        <activity android:name=".Activity8" android:label="경비 계산"></activity>
+        <activity android:name=".Activity9" android:label="제주도 맛집 리스트"></activity>
+        <activity android:name=".Activity10" android:label="평창 맛집 리스트"></activity>
+        <activity android:name=".Activity11" android:label="부산 맛집 리스트"></activity>
+        <activity android:name=".Activity12" android:label="양양 맛집 리스트"></activity>
+        <activity android:name=".Activity13" android:label="단양 맛집 리스트"></activity>
+        <activity android:name=".Activity14" android:label="통영 맛집 리스트"></activity>
+        <activity android:name=".Activity15" android:label="서울 디저트 맛집 리스트"></activity>
+        <activity android:name=".Activity16" android:label="여수 디저트 맛집 리스트"></activity>
+        <activity android:name=".Activity17" android:label="전주 디저트 맛집 리스트"></activity>
+        <activity android:name=".Activity18" android:label="경주 맛집 리스트"></activity>
+        <activity android:name=".Activity19" android:label="부여 맛집 리스트"></activity>
+        <activity android:name=".Activity20" android:label="강화군 맛집 리스트"></activity>
+        <activity android:name=".Activity21" android:label="예상 경비"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

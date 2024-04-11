@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDE8E1">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="356dp"
+        android:layout_height="550dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="220dp"
+        android:rotation="-150"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/airplane1" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="311dp"
+        android:layout_height="456dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="115dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/train2" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="415dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="75dp"
+        android:alpha="0.6"
+        android:rotation="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/heart" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="212dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="52dp"
+        android:background="#FAB397"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/travel_prompt"
+        android:textColor="#2C2929"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#EAC0C0"
+        android:gravity="center"
+        android:prompt="@string/travel_prompt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:background="#FAB397"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/travel_prompt2"
+        android:textColor="#2C2929"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner1" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:prompt="@string/travel_prompt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:background="#FAB397"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/travel_prompt3"
+        android:textColor="#2C2929"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="#5E8783"
+        android:text="조회"
+        android:textColor="#D0FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="310dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="각각을 선택하신 후 조회 버튼을 누르세요."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner3"
+        app:layout_constraintVertical_bias="0.61" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

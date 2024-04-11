@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Fin_201910103</string>
+    <string name="travel_prompt">여행지를 선택하세요.</string>
+
+    <string-array name="travel_array">
+        <item>제주도</item>
+        <item>강원도 평창</item>
+        <item>부산광역시</item>
+        <item>강원도 양양</item>
+        <item>충청북도 단양</item>
+        <item>경상남도 통영</item>
+        <item>서울특별시</item>
+        <item>전라남도 여수</item>
+        <item>전라북도 전주</item>
+        <item>경상북도 경주</item>
+        <item>충청남도 부여</item>
+        <item>인천광역시 강화군</item>
+    </string-array>
+
+    <string name="travel_prompt2">여행 갈 시기를 선택하세요.</string>
+
+    <string-array name="travel_array2">
+        <item>2022년 6월</item>
+        <item>2022년 7월</item>
+        <item>2022년 8월</item>
+        <item>2022년 9월</item>
+        <item>2022년 10월</item>
+        <item>2022년 11월</item>
+        <item>2022년 12월</item>
+    </string-array>
+
+    <string name="travel_prompt3">인원수를 선택하세요.</string>
+
+    <string-array name="travel_array3">
+        <item>1명</item>
+        <item>2명</item>
+        <item>3명</item>
+        <item>4명</item>
+        <item>5명</item>
+        <item>6명</item>
+        <item>7명</item>
+        <item>8명</item>
+        <item>9명</item>
+        <item>10명</item>
+    </string-array>
+</resources>

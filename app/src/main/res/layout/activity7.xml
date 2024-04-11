@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF6E6">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="115dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="여행지"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="232dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="356dp"
+        android:layout_height="307dp"
+        android:layout_marginStart="13dp"
+        android:background="#F8EBC6"
+        android:fontFamily="serif"
+        android:paddingLeft="17dp"
+        android:paddingTop="10dp"
+        android:textColor="#5E382C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="220dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="305dp"
+        android:layout_marginEnd="23dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/jeju" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#EFC4B6"
+        android:text="이전 화면으로\n돌아가기"
+        android:textColor="#5A5959"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="186dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:background="#5E382C"
+        android:gravity="center"
+        android:text="가볼 만한 곳 리스트"
+        android:textColor="#F4F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#DF7C5C"
+        android:text="여행 경비\n알아보러 가기"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#FACD8C"
+        android:onClick="web"
+        android:text="맛집 리스트"
+        android:textColor="#654A23"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="231dp"
+        android:layout_height="322dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="254dp"
+        android:rotation="-8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/plane" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
